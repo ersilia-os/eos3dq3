@@ -1,18 +1,23 @@
-Identifier: ""
-Slug: ""
-Status: ""
-Title: ""
-Description: ""
-Mode: ""
+Identifier: eos3dq3
+Slug: mole-embeddings
+Status: In progress
+Title: MolE molecular embeddings
+Description: MolE is a foundation model for chemistry developed by Recursion. It combines
+  geometric deep learning with transformers, to learn a meaningful representation
+  of molecules. MolE leverages extensive labeled and unlabeled datasets in two pretraining
+  steps. First it follows a novel self-supervised strategy using the graph representation
+  of ~842 million molecules designed to properly learn to represent chemical structures.
+  It is followed by a massive multi-task training to assimilate biological information.
+Mode: ''
 Task: []
 Input: []
-Input Shape: ""
+Input Shape: ''
 Output: []
 Output Type: []
-Output Shape: ""
-Interpretation: ""
-Tag: []
-Publication: ""
-Source Code: ""
-License: ""
-
+Output Shape: ''
+Interpretation: ''
+Tag:
+- Embedding
+Publication: https://www.nature.com/articles/s41467-024-53751-y
+Source Code: https://github.com/recursionpharma/mole_public
+License: MIT
